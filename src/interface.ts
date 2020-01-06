@@ -41,6 +41,7 @@ export interface CellType<RecordType> {
   column?: ColumnsType<RecordType>[number];
   colSpan?: number;
   rowSpan?: number;
+  display?: string;
 
   /** Only used for table header */
   hasSubColumns?: boolean;
