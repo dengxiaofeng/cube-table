@@ -17,7 +17,7 @@
   border-top: 0;
   border-left: 0;
   transition: box-shadow 0.3s;
-  padding: 16px 8px;
+  padding: 8px 8px;
   box-sizing: border-box;
   white-space: normal;
   word-break: break-word;
@@ -103,10 +103,6 @@
 .rc-table-placeholder {
   text-align: center;
 }
-.rc-table tbody tr td,
-.rc-table tbody tr th {
-  background: #fff;
-}
 .rc-table-content {
   border: 1px solid #3486da;
   border-right: 0;
@@ -129,8 +125,8 @@
 }
 .rc-table-expanded-row-fixed {
   box-sizing: border-box;
-  margin: -16px -8px;
-  padding: 16px 8px;
+  margin: -8px -8px;
+  padding: 8px 8px;
   margin-right: -10px;
 }
 .rc-table-expanded-row-fixed::after {
@@ -165,10 +161,10 @@
 .rc-table-title {
   border: 1px solid #3486da;
   border-bottom: 0;
-  padding: 16px 8px;
+  padding: 8px 8px;
 }
 .rc-table-footer {
   border: 1px solid #3486da;
   border-top: 0;
-  padding: 16px 8px;
+  padding: 8px 8px;
 }
